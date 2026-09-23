@@ -1,0 +1,29 @@
+# Dependencies and builds
+node_modules/
+dist/
+dist_exe/
+build/
+Output/
+*.lock
+*.exe
+*.iss
+
+# Android builds
+android/.gradle/
+android/app/build/
+android/.idea/
+android/local.properties
+android/*.iml
+
+# Python / PyInstaller
+__pycache__/
+*.py[cod]
+*.spec
+venv/
+.venv/
+
+# Environment and OS
+.env
+.env.local
+.DS_Store
+Thumbs.db
